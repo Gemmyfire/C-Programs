@@ -1,0 +1,22 @@
+-multiply: final numer = numerator1 * numerator2 
+            final denom = denom1 * denom2 
+
+-divide: final numer = numerator1 * denom2 
+         final denom = denom1 * numerator2 
+         
+-makeFraction(double): make decimal numer and 1 denom 
+                       multiply numer and denom by 10 for each
+                       decimal place of the numer 
+                       then call reduce(fraction)
+-reduce(fraction): use gcf(int, int) function to find greatest common factor
+                   between numer and denom,then divide both by that
+-makeImproperFraction(int, fraction): 
+            look at denom for fraction, then make the int into a fraction 
+            by using the denom for its denom and multiplying the 
+            int by the denom to get the numer 
+-getInverse(): temp = numer, numer = denom, denom = temp 
+-getDecimal(): call showpoint, fixed, setprecision(however many spaces)
+                and typecast the numer as double, then divide numer 
+                by denom (static_cast<double>(numer)/denom)
+-print() const: cout numer and denom with nice formatting
+-print(ostream&) const: fout numer and denom with nice formatting 

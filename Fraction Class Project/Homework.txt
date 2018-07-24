@@ -1,0 +1,156 @@
+1. Mark the following statements as true or false:
+    a. The member variables of a class must be of the same type. False
+    b. The member functions of a class must be public. False 
+    c. A class can have more than one constructor. True
+    d. A class can have more than one destructor. False 
+    e. Both constructors and destructors can have parameters. False 
+2. Find the syntax errors in the following class definition:
+    class mystery
+    {
+    public; //missing class constructor and destructor 
+        void print() const;
+        void setXY(double, double);
+        int add();
+        double mystery();
+    private;
+        double x;
+        double y;
+    }; //the public and private headings should have : instead of ;
+3. Find the syntax errors in the following class definition:
+    class temp
+    {
+    public: //missing class constructor and destructor
+        bool isEqual();
+        print() const; //print doesn't have a return type 
+        void temp(int = 0, int = 0);
+    private:
+        int first;
+        int second;
+    };
+4. Find the syntax errors in the following class definition:
+    class secret
+    {
+    public: //missing class constructor and destructor  
+        set (int x, int y); //needs a return type 
+        get (int& x, int& y); // needs return type, both are probably reserved words 
+        int multiply();
+        void print() const;
+        secret(int = 0, int = 0) const; //needs return type 
+    private: 
+        int num1;
+        int num2;
+    };
+5. Find the syntax errors in the following class definition: 
+    class discover() //shouldn't have parameter parenthese here 
+    {
+    public:
+        void set(string, int, int);
+        void print() const;
+        discover();
+        discover(string, int, int);
+        bool discover(string, int, int); //shouldn't have a return type 
+    private; // should be : 
+        string type; 
+        int l;
+        int w;
+    } // needs ; also missing destructor 
+6. Consider the following declarations:
+    class bagType
+    {
+    public: 
+        void set(string, double, double, double, double);
+        void print() const;
+        sting getStyle() const;
+        double getPrice() const;
+        void get(double, double, double, double);
+        bagType();
+        bagType(string, double, double, double, double);
+    private:
+        string style;
+        double l;
+        double w; 
+        double h;
+        double price; 
+    }; //no destructor 
+    
+    bagType newBag;
+    a. How many members does class bagType have? 12
+    b. How many private members does class bagType have? 5
+    c. How many constructors does class bagType have? 2
+    d. How many constant functions does class bagType have? 3
+    e. Which constructor is used to initialize the object newBag? bagType();
+7. Assume the definition of class bagType as given in Exercise 6. Answer the following questions:
+    a. Write the definition of the member function set so that private members are set 
+    according to the parameters - 
+
+        void set(string s, double length, double width, double height, double p)
+        {
+            style = s; l = length; w = width; h = height; price = p;
+        }
+    b. Write the definition of the member function print that prints the values 
+    of the data members. 
+    
+        void print() const
+        {
+            cout << style << l << w << h << price;
+        }
+    c. Write the definition of the default constructor of the class bagType so 
+    that the private member variables are initialized to "", 0.0,0.0,0.0,0.0, respectively:
+    
+    bagType()
+    {
+        style = "";
+        l, w, h, price = 0.0;
+    }
+    d. Write a C++ statement that prints the value of the object newBag. 
+    
+    newBag.print();
+    e. Write a C++ statement that declares the object tempBag of type bagType, 
+    and initializes the member variables of tempBag to "backPack", 15, 8, 20, and 49.99 respectively. 
+    
+    bagType tempBag("backPack", 15, 8, 20, 49.99);
+8. Consider the definition of the following class:
+   class employee
+   {
+   public:
+        employee();
+        employee(string, int, double);
+        employee(int, double);
+        employee(string):
+        
+        void setData(string, int, double);
+        void print() const;
+        void updateSalary(double x);
+        int getNumOfServiceYears() const;
+        double getSalary() const;
+        
+    private:
+        string name;
+        int numOfServiceYears;
+        double salary;
+    };
+    a. Give the line number containing the constructor that is executed in each of 
+    the following declarations:
+        i. employee tempEmployee; - line 4
+        ii. employee newEmployee("Harry Miller", 0, 25000); - line 5
+        iii. employee oldEmployee("Bill Dunbar", 15, 55000); - line 5 
+    b. Write the definition of the constructor in Line 4 so that the instance 
+    variables are initialized to "", 0, 0.0, respectively. 
+        employee()
+        {
+            name = ""; numOfServiceYears = 0; salary = 0.0;
+        }
+    c. Write the definition of the constructor in Line 5 so that the instance 
+    variables are initialized according to the parameters. 
+        employee(string s, int i, double d)
+        {
+            name = s; numOfServiceYears = i; salary = d;
+        }
+    d. Write the definition of the constructor in Line 6 so that the instance 
+    variable name is initialized to the empty string and the remaining instance 
+    variables are initialized according to the parameters. 
+        employee(int i, double d)
+        {
+            name = ""; numOfServiceYears = i; salary = d;
+        }
+ 

@@ -1,0 +1,109 @@
+                F R A C T I O N   O P E R A T I O N S        
+                -------------------------------------
+
+                      Written by Keith Saunders
+
+         Data Set1  Fraction 1     Fraction 2        Solution
+        ----------  ----------     ----------        --------
+         Addition:     3 /   4   +   -1 /   2   =     1 /   4
+
+      Subtraction:     3 /   4   -   -1 /   2   =     5 /   4
+
+   Multiplication:     3 /   4   *   -1 /   2   =    -3 /   8
+
+         Division:     3 /   4   /   -1 /   2   =    -3 /   2
+
+          Inverse:     3 /   4                  =     4 /   3
+
+          Inverse:                   -1 /   2   =    -2 /   1
+
+Equiv. fraction 1:     3 /   4                  =    0.750000
+
+Equiv. fraction 2:                   -1 /   2   =   -0.500000
+
+Improper fraction:          -5  and   3 /   4   =   -17 /   4
+
+Improper fraction:          -6  and  -1 /   2   =   -13 /   2
+
+Deci. to Fraction:                   0.582500   =   233 / 400
+
+
+
+         Data Set2  Fraction 1     Fraction 2        Solution
+        ----------  ----------     ----------        --------
+         Addition:    -1 /   9   +    3 /   4   =    23 /  36
+
+      Subtraction:    -1 /   9   -    3 /   4   =   -31 /  36
+
+   Multiplication:    -1 /   9   *    3 /   4   =    -1 /  12
+
+         Division:    -1 /   9   /    3 /   4   =    -4 /  27
+
+          Inverse:    -1 /   9                  =    -9 /   1
+
+          Inverse:                    3 /   4   =     4 /   3
+
+Equiv. fraction 1:    -1 /   9                  =   -0.111111
+
+Equiv. fraction 2:                    3 /   4   =    0.750000
+
+Improper fraction:          -1  and  -1 /   9   =   -10 /   9
+
+Improper fraction:           9  and   3 /   4   =    39 /   4
+
+Deci. to Fraction:                   0.160000   =     4 /  25
+
+
+
+         Data Set3  Fraction 1     Fraction 2        Solution
+        ----------  ----------     ----------        --------
+         Addition:     2 /  15   +    1 /   5   =     1 /   3
+
+      Subtraction:     2 /  15   -    1 /   5   =    -1 /  15
+
+   Multiplication:     2 /  15   *    1 /   5   =     2 /  75
+
+         Division:     2 /  15   /    1 /   5   =     2 /   3
+
+          Inverse:     2 /  15                  =    15 /   2
+
+          Inverse:                    1 /   5   =     5 /   1
+
+Equiv. fraction 1:     2 /  15                  =    0.133333
+
+Equiv. fraction 2:                    1 /   5   =    0.200000
+
+Improper fraction:           2  and   2 /  15   =    32 /  15
+
+Improper fraction:           2  and   1 /   5   =    11 /   5
+
+Deci. to Fraction:                   0.550000   =    11 /  20
+
+
+
+         Data Set4  Fraction 1     Fraction 2        Solution
+        ----------  ----------     ----------        --------
+         Addition:   -12 /  11   +  -11 /  18   =  -337 / 198
+
+      Subtraction:   -12 /  11   -  -11 /  18   =   -95 / 198
+
+   Multiplication:   -12 /  11   *  -11 /  18   =     2 /   3
+
+         Division:   -12 /  11   /  -11 /  18   =   216 / 121
+
+          Inverse:   -12 /  11                  =   -11 /  12
+
+          Inverse:                  -11 /  18   =   -18 /  11
+
+Equiv. fraction 1:   -12 /  11                  =   -1.090909
+
+Equiv. fraction 2:                  -11 /  18   =   -0.611111
+
+Improper fraction:          -2  and -12 /  11   =   -34 /  11
+
+Improper fraction:          -6  and -11 /  18   =  -119 /  18
+
+Deci. to Fraction:                  -0.010000   =    -1 / 100
+
+
+
