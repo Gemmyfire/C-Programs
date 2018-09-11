@@ -1,0 +1,10 @@
+0 2475 Bartholomew John 0.0
+1 2550 Tang Andrew 0.0
+2 2795 Nakamura Hikaru 0.0
+3 2840 Carlsen Magnus 0.0
+4 2834 Caruana Fabiano 0.0
+5 2797 Vachier-Lagrave Maxime 0.0
+6 2820 Mamedyarov Shakhriyar 0.0
+7 2804 Ding Liren 0.0
+8 2780 Aronian Levon 0.0
+9 2780 Giri Anish 0.0

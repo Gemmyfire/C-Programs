@@ -1,0 +1,17 @@
+﻿1. Implement the Tournament::Tournament(…) constructor provided such that it loads the data
+from the players input file into the m_Players vector and data from the games input file into the
+m_Games list without using any user-defined loops.
+
+-find a function which will do this without me having to loop it myself. 
+-try: istream& getline(char * array, int n); or input_file.getline(buffer_char_array, buffer_length);
+to read in the entire first line of the Players.txt file, putting each thing separated by a whitespace 
+into their own array spot
+OR std::vector::swap can swap the entire contents of a vector into another vector
+
+
+2. Implement the Tournament::GenerateResults() function such that it writes the list of players with
+their scores in descending order by player score without using any user-defined loops.
+
+-use std::sort() function to sort player list descending by score
+-use >> or << operators as overwritten in player class to put players into an output stream
+and attach that to pipe into the return string

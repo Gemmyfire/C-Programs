@@ -1,0 +1,10 @@
+3 2840 Carlsen Magnus 7
+4 2834 Caruana Fabiano 7
+5 2797 Vachier-Lagrave Maxime 7
+8 2780 Aronian Levon 6
+9 2780 Giri Anish 6
+2 2795 Nakamura Hikaru 4
+6 2820 Mamedyarov Shakhriyar 3
+0 2475 Bartholomew John 2.5
+7 2804 Ding Liren 2
+1 2550 Tang Andrew 0.5
